@@ -8,5 +8,6 @@ function setup() {
 cat = loadImage("assets/Cat.jpg");
 dog = loadImage("assets/Dog.jpg");
 function draw() {
-
+  image(cat, width/2, 100);
+  image(dog, width /2, 100);
 }
