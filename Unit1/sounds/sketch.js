@@ -22,3 +22,6 @@ function mouseReleased(){
 function draw() {
   background(100);
 }
+function touchStarted() {
+  getAudioContext().resume();
+}
