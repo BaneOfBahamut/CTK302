@@ -1,12 +1,7 @@
 let cat;
-let dog;
-
 function setup() {
-  createCanvas(500, 500);
-cat = loadImage("assets/Cat.jpg");
-dog = loadImage("assets/Dog.jpg");
+cat = loadImage("assets/cat.jpg");
 }
 function draw() {
-  image(cat, width /2, 100, 100, 100);
-  image(dog, width /2, 100, 100, 100);
+  loadImage(cat, 100, 100, 100, 100)
 }
